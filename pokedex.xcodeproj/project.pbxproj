@@ -12,6 +12,7 @@
 		7513DACF1CB9728A0005D576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7513DACD1CB9728A0005D576 /* Main.storyboard */; };
 		7513DAD11CB9728B0005D576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7513DAD01CB9728B0005D576 /* Assets.xcassets */; };
 		7513DAD41CB9728B0005D576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7513DAD21CB9728B0005D576 /* LaunchScreen.storyboard */; };
+		7513DADC1CB98C850005D576 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 7513DADB1CB98C850005D576 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7513DAD01CB9728B0005D576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7513DAD31CB9728B0005D576 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7513DAD51CB9728B0005D576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7513DADB1CB98C850005D576 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = pokemon.csv; path = ../pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		7513DAC81CB9728A0005D576 /* pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				7513DADB1CB98C850005D576 /* pokemon.csv */,
 				7513DAC91CB9728A0005D576 /* AppDelegate.swift */,
 				7513DACB1CB9728A0005D576 /* ViewController.swift */,
 				7513DACD1CB9728A0005D576 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				7513DAD41CB9728B0005D576 /* LaunchScreen.storyboard in Resources */,
 				7513DAD11CB9728B0005D576 /* Assets.xcassets in Resources */,
+				7513DADC1CB98C850005D576 /* pokemon.csv in Resources */,
 				7513DACF1CB9728A0005D576 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +292,7 @@
 				7513DADA1CB9728B0005D576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
