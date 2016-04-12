@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
-    
+    var pokemon = [Pokemon]()
     
     let CELL_WIDTH : CGFloat = 105
     let CELL_HEIGHT: CGFloat = 105
@@ -22,6 +22,28 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         collection.delegate = self
         collection.dataSource = self
+        
+        parseCSV()
+    }
+    
+    func parseCSV(){
+        let path = NSBundle.mainBundle().pathForResource("pokemon", ofType: "csv")!
+        do {
+            let csv = try CSV(contentsOfURL: path)
+            let rows = csv.rows
+            print(rows)
+            
+            for row in rows {
+                let pokeId = Int(row["id"]!)!
+                let name = row["identifier"]!
+                let poke = Pokemon(name: name, pokedexId: pokeId)
+                pokemon.append(poke)
+            }
+        } catch let error as NSError {
+            print("Your CVS Parser is busted. Go in and fix that shit yourself")
+            print(error.debugDescription)
+                
+        }
     }
     
 
@@ -34,9 +56,9 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         if let cell = collectionView.dequeueReusableCellWithReuseIdentifier("PokeCell", forIndexPath: indexPath) as? PokeCell{
             
-            var testPokemon = Pokemon(name: "TESTWAD", pokedexId: indexPath.row)
+            var poke = pokemon[indexPath.row]
             
-            cell.configureCell(testPokemon)
+            cell.configureCell(poke)
             return cell
         } else {
             print("Your data did not make it into the view fuckface!")
@@ -50,7 +72,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return NUMBER_OF_CELLS
+        return pokemon.count
     }
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
