@@ -62,7 +62,7 @@
                                     <constraint firstItem="Hff-D2-6xU" firstAttribute="leading" secondItem="Txv-Bu-dBb" secondAttribute="leading" constant="72" id="z9T-KE-HTw"/>
                                 </constraints>
                             </view>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="YW3-E1-HLP">
+                            <searchBar contentMode="redraw" placeholder="Search Pokemon" translatesAutoresizingMaskIntoConstraints="NO" id="YW3-E1-HLP">
                                 <rect key="frame" x="0.0" y="55" width="600" height="44"/>
                                 <color key="barTintColor" red="0.1984896477088279" green="0.66666668653488159" blue="0.65324131811450925" alpha="0.7024878102836879" colorSpace="calibratedRGB"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -137,6 +137,7 @@
                     </view>
                     <connections>
                         <outlet property="collection" destination="d5G-bL-hep" id="8qJ-8o-zPL"/>
+                        <outlet property="searchBar" destination="YW3-E1-HLP" id="hOv-JN-8XY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
