@@ -5,6 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Pokemon_Solid.ttf">
+            <string>PokemonSolidNormal</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -23,9 +28,38 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Txv-Bu-dBb">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="55"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Fucking Pokedex" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hff-D2-6xU">
+                                        <rect key="frame" x="72" y="8" width="457" height="39"/>
+                                        <fontDescription key="fontDescription" name="PokemonSolidNormal" family="Pokemon Solid" pointSize="25"/>
+                                        <color key="textColor" red="0.93361304899999997" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="0.034326544873069631" green="0.18369997763576928" blue="1" alpha="0.7024878102836879" colorSpace="calibratedRGB"/>
+                                        <color key="shadowColor" red="1" green="0.0" blue="0.020532956710000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <size key="shadowOffset" width="1" height="1"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDT-so-QgP">
+                                        <rect key="frame" x="552" y="11" width="40" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="O1u-CM-HMp"/>
+                                            <constraint firstAttribute="height" constant="36" id="mzv-xt-Dy2"/>
+                                        </constraints>
+                                        <state key="normal" image="music (1)"/>
+                                        <connections>
+                                            <action selector="musicToggle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hbp-0b-CeE"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" red="0.13713508839999999" green="0.061907087440000001" blue="0.49276014400000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="Hff-D2-6xU" firstAttribute="centerX" secondItem="Txv-Bu-dBb" secondAttribute="centerX" id="Cgs-AK-0CQ"/>
                                     <constraint firstAttribute="height" constant="55" id="Rt7-iq-8eb"/>
+                                    <constraint firstAttribute="trailing" secondItem="vDT-so-QgP" secondAttribute="trailing" constant="8" id="Shu-QW-n76"/>
+                                    <constraint firstAttribute="trailing" secondItem="Hff-D2-6xU" secondAttribute="trailing" constant="71" id="ao3-vd-OuN"/>
+                                    <constraint firstItem="vDT-so-QgP" firstAttribute="top" secondItem="Txv-Bu-dBb" secondAttribute="top" constant="11" id="gUQ-X7-afm"/>
+                                    <constraint firstItem="vDT-so-QgP" firstAttribute="leading" secondItem="Hff-D2-6xU" secondAttribute="trailing" constant="23" id="qaB-ub-IrG"/>
+                                    <constraint firstAttribute="bottom" secondItem="vDT-so-QgP" secondAttribute="bottom" constant="8" id="qt0-ec-UTa"/>
+                                    <constraint firstItem="Hff-D2-6xU" firstAttribute="top" secondItem="Txv-Bu-dBb" secondAttribute="top" constant="8" id="vqy-s5-LZ6"/>
+                                    <constraint firstItem="Hff-D2-6xU" firstAttribute="leading" secondItem="Txv-Bu-dBb" secondAttribute="leading" constant="72" id="z9T-KE-HTw"/>
                                 </constraints>
                             </view>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="YW3-E1-HLP">
@@ -113,5 +147,6 @@
     <resources>
         <image name="51" width="120" height="120"/>
         <image name="bg" width="1920" height="1200"/>
+        <image name="music (1)" width="16" height="16"/>
     </resources>
 </document>
