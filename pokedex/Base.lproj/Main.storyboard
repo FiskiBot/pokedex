@@ -458,7 +458,18 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="attackLbl" destination="ndT-CS-6D7" id="Ptr-b5-4OG"/>
+                        <outlet property="currentEvoImg" destination="gMT-JL-Kea" id="xqm-Yx-WJx"/>
+                        <outlet property="defenseLbl" destination="Bqh-RG-DKe" id="F7M-m8-VFb"/>
+                        <outlet property="evoLbl" destination="9gw-pF-Kcl" id="2FJ-t8-QYF"/>
+                        <outlet property="heightLbl" destination="01X-TC-mXS" id="bi1-rt-bW9"/>
+                        <outlet property="idLbl" destination="ZTB-Ga-f7D" id="pTg-0e-RVL"/>
+                        <outlet property="mainDescription" destination="IDr-iF-i3B" id="45r-Od-6op"/>
+                        <outlet property="mainImg" destination="PVS-Zb-RIx" id="DIR-na-K1O"/>
                         <outlet property="nameLbl" destination="Nmc-Ve-H1K" id="YRa-El-Nuh"/>
+                        <outlet property="nextEvoImg" destination="oY4-zU-o41" id="16N-qs-VK2"/>
+                        <outlet property="typeLbl" destination="nmX-De-bCG" id="Nvb-y7-OGr"/>
+                        <outlet property="weightLbl" destination="GuJ-lR-hts" id="uJ1-ns-VKF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qcL-FG-ff1" userLabel="First Responder" sceneMemberID="firstResponder"/>
