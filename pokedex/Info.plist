@@ -45,6 +45,7 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
+		<string>me123.ttf</string>
 		<string>pokemon_Solid.ttf</string>
 	</array>
 </dict>
