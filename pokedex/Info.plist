@@ -48,5 +48,10 @@
 		<string>me123.ttf</string>
 		<string>pokemon_Solid.ttf</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
