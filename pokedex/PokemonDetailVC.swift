@@ -23,7 +23,7 @@ class PokemonDetailVC: UIViewController {
     @IBOutlet weak var attackLbl: UILabel!
     @IBOutlet weak var defenseLbl: UILabel!
     
-    @IBOutlet weak var currentEvoImg: UIImageView!
+
     @IBOutlet weak var nextEvoImg: UIImageView!
     
     @IBOutlet weak var evoLbl: UILabel!
@@ -32,12 +32,40 @@ class PokemonDetailVC: UIViewController {
     override func viewDidAppear(animated: Bool) {
         nameLbl.text = pokemon.name
         mainImg.image = UIImage(named: "\(pokemon.pokedexId)")
+        //mainDescription.text = pokemon.description
+        //typeLbl.text = pokemon.type
         
         pokemon.downloadPokemonDetails { () -> () in
             //this will be called when download is finished.
+            self.updateUI()
             
         }
     }
+    
+    func updateUI(){
+        mainDescription.text = pokemon.description
+        typeLbl.text = pokemon.type
+        heightLbl.text = pokemon.height
+        weightLbl.text = pokemon.weight
+        idLbl.text = "\(pokemon.pokedexId)"
+        attackLbl.text = pokemon.attack
+        defenseLbl.text = pokemon.defense
+        
+        if pokemon.nextEvoId == "" {
+            evoLbl.text = "NO EVOLUTIONS"
+            nextEvoImg.hidden = true
+            
+        } else {
+            evoLbl.text = "NEXT EVOLUTION: \(pokemon.nextEvoTxt)"
+            nextEvoImg.hidden = false
+            nextEvoImg.image = UIImage(named: pokemon.nextEvoId)
+        }
+        
+        
+    
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

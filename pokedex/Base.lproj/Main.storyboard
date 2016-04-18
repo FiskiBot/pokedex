@@ -259,7 +259,7 @@
                                                         <color key="textColor" red="0.13713508839999999" green="0.061907087440000001" blue="0.49276014400000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmX-De-bCG">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmX-De-bCG">
                                                         <rect key="frame" x="122" y="0.0" width="102" height="22"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="18"/>
                                                         <color key="textColor" red="0.0" green="0.41562105430000001" blue="0.068457533690000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -278,7 +278,7 @@
                                                         <color key="textColor" red="0.13713508839999999" green="0.061907087440000001" blue="0.49276014400000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01X-TC-mXS">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01X-TC-mXS">
                                                         <rect key="frame" x="122" y="0.0" width="102" height="22"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="18"/>
                                                         <color key="textColor" red="0.0" green="0.41562105430000001" blue="0.068457533690000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -297,7 +297,7 @@
                                                         <color key="textColor" red="0.13713508839999999" green="0.061907087440000001" blue="0.49276014400000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GuJ-lR-hts">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GuJ-lR-hts">
                                                         <rect key="frame" x="122" y="0.0" width="102" height="22"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="18"/>
                                                         <color key="textColor" red="0.0" green="0.41562105430000001" blue="0.068457533690000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -316,7 +316,7 @@
                                                         <color key="textColor" red="0.13713508839999999" green="0.061907087440000001" blue="0.49276014400000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTB-Ga-f7D">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTB-Ga-f7D">
                                                         <rect key="frame" x="122" y="0.0" width="102" height="22"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="18"/>
                                                         <color key="textColor" red="0.0" green="0.41562105430000001" blue="0.068457533690000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -335,7 +335,7 @@
                                                         <color key="textColor" red="0.13713508839999999" green="0.061907087440000001" blue="0.49276014400000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndT-CS-6D7">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndT-CS-6D7">
                                                         <rect key="frame" x="122" y="0.0" width="102" height="22"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="18"/>
                                                         <color key="textColor" red="0.0" green="0.41562105430000001" blue="0.068457533690000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -354,7 +354,7 @@
                                                         <color key="textColor" red="0.13713508839999999" green="0.061907087440000001" blue="0.49276014400000001" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqh-RG-DKe">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqh-RG-DKe">
                                                         <rect key="frame" x="122" y="0.0" width="102" height="22"/>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="18"/>
                                                         <color key="textColor" red="0.0" green="0.41562105430000001" blue="0.068457533690000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -371,10 +371,11 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cl9-N8-Zd7">
                                 <rect key="frame" x="0.0" y="441" width="600" height="43"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Evolutions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gw-pF-Kcl">
-                                        <rect key="frame" x="238" y="11" width="125" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Evolutions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gw-pF-Kcl">
+                                        <rect key="frame" x="0.0" y="11" width="592" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="125" id="JlE-IS-Gko"/>
+                                            <constraint firstAttribute="width" constant="592" id="XVH-uT-jM9"/>
                                             <constraint firstAttribute="height" constant="21" id="lWt-Z2-004"/>
                                             <constraint firstAttribute="width" constant="125" id="neE-RA-ghf"/>
                                         </constraints>
@@ -385,6 +386,7 @@
                                             <mask key="constraints">
                                                 <exclude reference="JlE-IS-Gko"/>
                                                 <exclude reference="lWt-Z2-004"/>
+                                                <exclude reference="neE-RA-ghf"/>
                                             </mask>
                                         </variation>
                                     </label>
@@ -399,6 +401,7 @@
                                     <constraint firstAttribute="bottom" secondItem="9gw-pF-Kcl" secondAttribute="bottom" constant="11" id="QGm-wS-mxo"/>
                                     <constraint firstItem="9gw-pF-Kcl" firstAttribute="centerY" secondItem="cl9-N8-Zd7" secondAttribute="centerY" id="RB9-pC-WsL"/>
                                     <constraint firstItem="9gw-pF-Kcl" firstAttribute="centerX" secondItem="cl9-N8-Zd7" secondAttribute="centerX" id="SWh-UB-Dt7"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="UOH-8h-dPu"/>
                                     <constraint firstAttribute="trailing" secondItem="9gw-pF-Kcl" secondAttribute="trailing" constant="237" id="cO5-jP-Pug"/>
                                     <constraint firstItem="9gw-pF-Kcl" firstAttribute="leading" secondItem="cl9-N8-Zd7" secondAttribute="leading" constant="238" id="zNp-eg-hDL"/>
                                 </constraints>
@@ -412,54 +415,39 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="VPo-9O-NcZ">
-                                <rect key="frame" x="180" y="492" width="240" height="100"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="102" translatesAutoresizingMaskIntoConstraints="NO" id="gMT-JL-Kea">
-                                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="2Vw-aG-ezM"/>
-                                            <constraint firstAttribute="height" constant="100" id="wr5-nj-AKk"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="161" translatesAutoresizingMaskIntoConstraints="NO" id="oY4-zU-o41">
-                                        <rect key="frame" x="140" y="0.0" width="100" height="100"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="UDR-aa-DsL"/>
-                                            <constraint firstAttribute="height" constant="100" id="vOd-Vd-jsX"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="161" translatesAutoresizingMaskIntoConstraints="NO" id="oY4-zU-o41">
+                                <rect key="frame" x="250" y="492" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Fmp-aZ-D17"/>
+                                    <constraint firstAttribute="width" constant="100" id="UDR-aa-DsL"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="aYw-ud-gcf"/>
+                                    <constraint firstAttribute="height" constant="100" id="vOd-Vd-jsX"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.075470846524108959" green="1" blue="0.39658057194113239" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="B8k-Ev-CeC" firstAttribute="top" secondItem="VPo-9O-NcZ" secondAttribute="bottom" constant="8" id="1gS-i5-EGI"/>
                             <constraint firstItem="PoB-hW-IY7" firstAttribute="leading" secondItem="JUJ-xU-3TM" secondAttribute="leading" id="7S8-YZ-Bog"/>
+                            <constraint firstItem="B8k-Ev-CeC" firstAttribute="top" secondItem="oY4-zU-o41" secondAttribute="bottom" constant="8" id="H2E-Dt-6g3"/>
+                            <constraint firstItem="oY4-zU-o41" firstAttribute="top" secondItem="cl9-N8-Zd7" secondAttribute="bottom" constant="8" id="HmG-O5-bV7"/>
                             <constraint firstItem="cl9-N8-Zd7" firstAttribute="leading" secondItem="JUJ-xU-3TM" secondAttribute="leading" id="Ir9-Pq-O8R"/>
                             <constraint firstItem="PoB-hW-IY7" firstAttribute="centerX" secondItem="JUJ-xU-3TM" secondAttribute="centerX" id="MEB-9i-2KV"/>
+                            <constraint firstItem="oY4-zU-o41" firstAttribute="centerX" secondItem="JUJ-xU-3TM" secondAttribute="centerX" id="MHv-ko-bHG"/>
                             <constraint firstAttribute="trailing" secondItem="cl9-N8-Zd7" secondAttribute="trailing" id="MYf-cV-5mj"/>
                             <constraint firstItem="ki7-RW-0lU" firstAttribute="top" secondItem="PoB-hW-IY7" secondAttribute="bottom" constant="34" id="T2I-uX-Lqc"/>
-                            <constraint firstItem="VPo-9O-NcZ" firstAttribute="top" secondItem="cl9-N8-Zd7" secondAttribute="bottom" constant="8" symbolic="YES" id="TL8-Rx-Lor"/>
                             <constraint firstAttribute="trailing" secondItem="PoB-hW-IY7" secondAttribute="trailing" id="UeQ-dl-9Wt"/>
+                            <constraint firstItem="cl9-N8-Zd7" firstAttribute="leading" secondItem="JUJ-xU-3TM" secondAttribute="leading" id="a7g-1l-3Di"/>
                             <constraint firstItem="PoB-hW-IY7" firstAttribute="top" secondItem="JUJ-xU-3TM" secondAttribute="top" id="cpa-lg-CJt"/>
                             <constraint firstItem="ki7-RW-0lU" firstAttribute="centerX" secondItem="JUJ-xU-3TM" secondAttribute="centerX" id="fvb-XW-XOx"/>
-                            <constraint firstItem="VPo-9O-NcZ" firstAttribute="centerX" secondItem="cl9-N8-Zd7" secondAttribute="centerX" id="g4J-F5-yEw"/>
                             <constraint firstItem="cl9-N8-Zd7" firstAttribute="centerX" secondItem="JUJ-xU-3TM" secondAttribute="centerX" id="giR-KV-hi7"/>
                             <constraint firstItem="ki7-RW-0lU" firstAttribute="leading" secondItem="JUJ-xU-3TM" secondAttribute="leading" constant="14" id="jUX-HQ-lPn"/>
+                            <constraint firstAttribute="trailing" secondItem="cl9-N8-Zd7" secondAttribute="trailing" id="jqK-gM-wlM"/>
                             <constraint firstAttribute="trailing" secondItem="ki7-RW-0lU" secondAttribute="trailing" constant="14" id="lnq-n6-JaC"/>
-                            <constraint firstItem="VPo-9O-NcZ" firstAttribute="top" secondItem="cl9-N8-Zd7" secondAttribute="bottom" constant="8" id="xAA-o4-Uek"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="TL8-Rx-Lor"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="attackLbl" destination="ndT-CS-6D7" id="Ptr-b5-4OG"/>
-                        <outlet property="currentEvoImg" destination="gMT-JL-Kea" id="xqm-Yx-WJx"/>
                         <outlet property="defenseLbl" destination="Bqh-RG-DKe" id="F7M-m8-VFb"/>
                         <outlet property="evoLbl" destination="9gw-pF-Kcl" id="2FJ-t8-QYF"/>
                         <outlet property="heightLbl" destination="01X-TC-mXS" id="bi1-rt-bW9"/>
@@ -479,7 +467,6 @@
     </scenes>
     <resources>
         <image name="100" width="120" height="120"/>
-        <image name="102" width="120" height="120"/>
         <image name="161" width="120" height="120"/>
         <image name="51" width="120" height="120"/>
         <image name="back" width="16" height="16"/>
